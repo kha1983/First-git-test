@@ -15,9 +15,7 @@ public class GoogleTest {
 	public void techfios_test() throws Exception {
 
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-
 		WebDriver driver = new ChromeDriver();
-
 		driver.get("https://www.techfios.com");
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
